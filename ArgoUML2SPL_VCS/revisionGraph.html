@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Load the JS file -->
+  <script src="https://cdn.jsdelivr.net/npm/@gitgraph/js"></script>
+</head>
+<body>
+  <!-- DOM element in which we'll mount our graph -->
+  <div id="graph-container"></div>
+
+  <!-- Use the `GitgraphJS` global variable to create your graph -->
+  <script>
+    // Get the graph container HTML element.
+    const graphContainer = document.getElementById("graph-container");
+
+    const options = {
+    		  //orientation: "horizontal",
+    		  orientation: "vertical-reverse",
+
+    		  //template: "blackarrow",
+
+    		  //mode: "compact",
+
+    		  //author: "Joe <joe@company.com>",
+    		  author: "marcusvnac ",
+    		};
+    
+    // Instantiate the graph.
+    const gitgraph = GitgraphJS.createGitgraph(graphContainer, options);
+
+    // ADD HERE THE CODE GENERATED WITH Main_generateGitGraph.java
+const trunk= gitgraph.branch("trunk");
+trunk.commit({ hash:"1",
+ subject:"Initial data for the argouml-spl project.",
+ author:"httpd"});
+trunk.commit({ hash:"2",
+ subject:"Added project tools.",
+ author:"linus"});
+trunk.commit({ hash:"3",
+ subject:"Updated content through the web interface.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"4",
+ subject:"Test of SVN commit.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"5",
+ subject:"Not necessary.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"6",
+ subject:"Source folder.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"7",
+ subject:"Tools folder.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"8",
+ subject:"Initial version of ArgoUML-SPL home page.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"9",
+ subject:"This source was generated from the ArgoUML release v0.28.1.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"10",
+ subject:"Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"11",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"12",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"13",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"14",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"15",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"16",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"17",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"18",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"19",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"20",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"21",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"22",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"23",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"24",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"25",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"26",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"27",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"28",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"29",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"30",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"31",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"32",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"33",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"34",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"35",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"36",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"37",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"38",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"39",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"40",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"41",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"42",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"43",
+ subject:"Initial version of ArgoUML-SPL.  Generated from ArgoUML release version v0.28.1",
+ author:"marcusvnac"});
+trunk.commit({ hash:"44",
+ subject:"Removing eclipse metrics from project.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"45",
+ subject:"Source Folder",
+ author:"marcusvnac"});
+trunk.tag("tag rev.45");
+trunk.commit({ hash:"46",
+ subject:"Removing to create a new tag",
+ author:"marcusvnac"});
+trunk.tag("tag rev.46");
+trunk.commit({ hash:"47",
+ subject:"Initial version of source code.",
+ author:"marcusvnac"});
+trunk.tag("tag rev.47");
+trunk.commit({ hash:"48",
+ subject:"Initial version.",
+ author:"marcusvnac"});
+trunk.tag("tag rev.48");
+trunk.commit({ hash:"49",
+ subject:"Initial version of ArgoUML-SPL home page.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"50",
+ subject:"Files from ArgoUML project.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"51",
+ subject:"Files from ArgoUML project.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"52",
+ subject:"Fix create build dirs.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"53",
+ subject:"Removing invalid caracters.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"54",
+ subject:"Changes after new build.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"55",
+ subject:"Directories not necessary.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"56",
+ subject:"Removing eclipse metrics from project.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"57",
+ subject:"Forcing generation to run.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"58",
+ subject:"SVN:Ignore build path",
+ author:"marcusvnac"});
+trunk.commit({ hash:"59",
+ subject:"SVN:ignore build directory",
+ author:"marcusvnac"});
+trunk.commit({ hash:"60",
+ subject:"SVN:ignore build directory",
+ author:"marcusvnac"});
+trunk.commit({ hash:"61",
+ subject:"SVN:ignore build directory",
+ author:"marcusvnac"});
+trunk.commit({ hash:"62",
+ subject:"",
+ author:"marcusvnac"});
+trunk.commit({ hash:"63",
+ subject:"Eclipse PSF files directory",
+ author:"marcusvnac"});
+trunk.commit({ hash:"64",
+ subject:"Full ArgoUML application.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"65",
+ subject:"ArgoUML without the four initial extracted features.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"66",
+ subject:"ArgoUML without design critics and logging",
+ author:"marcusvnac"});
+trunk.commit({ hash:"67",
+ subject:"New home.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"68",
+ subject:"ProjectSet for ArgoUML-SPL.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"69",
+ subject:"Fix Logging Feature.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"70",
+ subject:"svn:ignore to staging directory.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"71",
+ subject:"Rebuild the products.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"72",
+ subject:"Calling task clean after task jpp-clean.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"73",
+ subject:"Add a form to send suggestions.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"74",
+ subject:"Accent fix.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"75",
+ subject:"Added PSF to build ArgoUML-SPL project.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"76",
+ subject:"svn:ignore to staging directory.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"77",
+ subject:"Fixing Granularity Type Metrics Annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"78",
+ subject:"Fixing Granularity Type Metrics Annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"79",
+ subject:"Fix Logging Feature.",
+ author:"marcusvnac"});
+const SequenceDiagram= trunk.branch("SequenceDiagram");
+SequenceDiagram.commit({ hash:"80",
+ subject:"Branch to SequenceDiagram annotation.",
+ author:"marcusvnac"});
+const UseCaseDiagram= trunk.branch("UseCaseDiagram");
+UseCaseDiagram.commit({ hash:"81",
+ subject:"Branch to UseCaseDiagram annotations.",
+ author:"marcusvnac"});
+SequenceDiagram.commit({ hash:"82",
+ subject:"SequenceDiagram (by camiloribeiro)",
+ author:"marcusvnac"});
+SequenceDiagram.commit({ hash:"83",
+ subject:"SequenceDiagram (by camiloribeiro)",
+ author:"camiloribeiro"});
+UseCaseDiagram.commit({ hash:"84",
+ subject:"Início da extração do diagrama de caso de uso",
+ author:"camiloribeiro"});
+UseCaseDiagram.commit({ hash:"85",
+ subject:"",
+ author:"camiloribeiro"});
+UseCaseDiagram.commit({ hash:"86",
+ subject:"",
+ author:"camiloribeiro"});
+UseCaseDiagram.commit({ hash:"87",
+ subject:"",
+ author:"camiloribeiro"});
+trunk.merge(SequenceDiagram,{ hash:"88",
+ subject:"Merging branch /NewFeatures/SequenceDiagram",
+ author:"marcusvnac"});
+trunk.merge(UseCaseDiagram,{ hash:"89",
+ subject:"Merging branch /branches/NewFeatures/UseCaseDiagram",
+ author:"marcusvnac"});
+trunk.commit({ hash:"90",
+ subject:"Added Sequence Diagram and Use Case Diagram.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"91",
+ subject:"Correcting wrong annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"92",
+ subject:"Add USECASEDIAGRAM",
+ author:"marcusvnac"});
+trunk.commit({ hash:"93",
+ subject:"Changing LOGGING order.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"94",
+ subject:"Changing constants order",
+ author:"marcusvnac"});
+const CollaborationDiagram= trunk.branch("CollaborationDiagram");
+CollaborationDiagram.commit({ hash:"95",
+ subject:"Create CollaborationDiagram branch.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"96",
+ subject:"Drop Collaboration Diagram branch.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"97",
+ subject:"Create CollaborationDiagram branch.",
+ author:"marcusvnac"});
+const DeploymentDiagram= trunk.branch("DeploymentDiagram");
+DeploymentDiagram.commit({ hash:"98",
+ subject:"Create Deployment Diagram  branch.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"99",
+ subject:"Folder to others tools.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"100",
+ subject:"Initial import. This software gather metrics from ArgoUML-SPL.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"101",
+ subject:"Initial import. This software gather metrics from ArgoUML-SPL.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"102",
+ subject:"Change to receive project folder and output filename as parameter.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"103",
+ subject:"Fix annotation error.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"104",
+ subject:"Fix projects build.",
+ author:"marcusvnac"});
+DeploymentDiagram.commit({ hash:"105",
+ subject:"Branch Old. New branch will be created.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"106",
+ subject:"Branch Old. New branch will be created.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"107",
+ subject:"Create CollaborationDiagram branch.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"108",
+ subject:"Remove Clean task call after JPP Clean.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"109",
+ subject:"New feature (CollaborationDiagram) Fix problems in other features.",
+ author:"marcusvnac"});
+CollaborationDiagram.commit({ hash:"110",
+ subject:"svn:ignore Staging folder.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"111",
+ subject:"Before merge of CollaborationDiagram Feature",
+ author:"marcusvnac"});
+trunk.tag("tag rev.111");
+trunk.commit({ hash:"112",
+ subject:"",
+ author:"marcusvnac"});
+trunk.tag("tag rev.112");
+trunk.commit({ hash:"113",
+ subject:"",
+ author:"marcusvnac"});
+trunk.tag("tag rev.113");
+trunk.commit({ hash:"114",
+ subject:"Before merge of CollaborationDiagram Feature",
+ author:"marcusvnac"});
+trunk.tag("tag rev.114");
+trunk.merge(CollaborationDiagram,{ hash:"115",
+ subject:"New feature (CollaborationDiagram) Fix problems in other features.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"116",
+ subject:"",
+ author:"marcusvnac"});
+trunk.commit({ hash:"117",
+ subject:"Enabling gathering LOC metric",
+ author:"marcusvnac"});
+trunk.commit({ hash:"118",
+ subject:"Add to calculate OR and AND metric.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"119",
+ subject:"Rename UMLSTATEDIAGRAM to STATEDIAGRAM",
+ author:"marcusvnac"});
+trunk.commit({ hash:"120",
+ subject:"Fix annotation error.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"121",
+ subject:"Fix metrics annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"122",
+ subject:"Removing diagram features annotations. At this time, only Logging feature will be annotate in *-core-model* projects.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"123",
+ subject:"Fix CollaborationDiagram Feature.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"124",
+ subject:"Fixing metrics annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"125",
+ subject:"Add package and class counter.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"126",
+ subject:"Review package counter.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"127",
+ subject:"Changing metric name: \"Command\" to \"Statement\"",
+ author:"marcusvnac"});
+DeploymentDiagram.commit({ hash:"128",
+ subject:"New feature DeploymentDiagram.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"129",
+ subject:"Add SD metric",
+ author:"marcusvnac"});
+DeploymentDiagram.commit({ hash:"130",
+ subject:"New feature DeploymentDiagram.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"131",
+ subject:"Add option do generate only basic metrics.",
+ author:"marcusvnac"});
+trunk.merge(DeploymentDiagram,{ hash:"132",
+ subject:"New feature DeploymentDiagram.  Change metric name: \"NestedCommand\" to \"NestedStatement\"",
+ author:"marcusvnac"});
+trunk.commit({ hash:"133",
+ subject:"Fix Class Metric regular expression.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"134",
+ subject:"New feature DeploymentDiagram.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"135",
+ subject:"Fixing metrics annotations.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"136",
+ subject:"Removing argouml-core-model* projects from metrics. Metrics will be gathered only in argouml-app and argouml-core-diagrams-sequence2, that are the main projects.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"137",
+ subject:"Update to the file created by the generate-project-tools.sh script.",
+ author:"linus"});
+trunk.commit({ hash:"138",
+ subject:"Update to the file created by the generate-project-tools.sh script.",
+ author:"linus"});
+trunk.commit({ hash:"139",
+ subject:"Add publications.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"140",
+ subject:"Fix accent problems.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"141",
+ subject:"Update produtcs version.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"142",
+ subject:"Add feature model image.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"143",
+ subject:"Fix from Christian Kaestner.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"144",
+ subject:"Add new product.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"145",
+ subject:"Remove other papers",
+ author:"marcusvnac"});
+trunk.commit({ hash:"146",
+ subject:"Update to the file created by the generate-project-tools.sh script.",
+ author:"linus"});
+trunk.commit({ hash:"147",
+ subject:"Translation by Benjamin Klatt.",
+ author:"marcusvnac"});
+trunk.commit({ hash:"148",
+ subject:"Fixed pre-processor statement documenting comments",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"149",
+ subject:"fixed invalid pre processor statement position",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"150",
+ subject:"Fixed pre-processor statement documenting comment",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"151",
+ subject:"aligned indentation of feature specific code and markers",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"152",
+ subject:"harmonized marker and preprocessor placement",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"153",
+ subject:"aligned indentation of feature specific code and markers",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"154",
+ subject:"aligned indentation of feature specific code and markers",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"155",
+ subject:"aligned indentation of feature specific code and markers",
+ author:"benjamin_klatt"});
+trunk.commit({ hash:"156",
+ subject:"aligned indentation of feature specific code and markers",
+ author:"benjamin_klatt"});
+
+  </script>
+</body>
+</html>
