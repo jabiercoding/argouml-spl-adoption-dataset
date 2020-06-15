@@ -70,8 +70,8 @@ public class Main_generateGitGraph {
 					System.out.println(masterBranch + ".commit({ hash:\"" + i + "\",\n subject:\"" + message
 							+ "\",\n author:\"" + get(row, "User") + "\"});");
 				} else {
-					System.out.println(masterBranch + ".merge(" + branchMergedFrom + ",{ hash:\"" + i + "\",\n subject:\"" + message
-							+ "\",\n author:\"" + get(row, "User") + "\"});");
+					System.out.println(masterBranch + ".merge({ branch: " + branchMergedFrom + ", commitOptions: { hash:\"" + i + "\",\n subject:\"" + message
+							+ "\",\n author:\"" + get(row, "User") + "\"}});");
 				}
 				if(isTag) {
 					System.out.println(masterBranch + ".tag(\"tag rev." + i + "\");");

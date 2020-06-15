@@ -297,12 +297,12 @@ UseCaseDiagram.commit({ hash:"86",
 UseCaseDiagram.commit({ hash:"87",
  subject:"",
  author:"camiloribeiro"});
-trunk.merge(SequenceDiagram,{ hash:"88",
+trunk.merge({ branch: SequenceDiagram, commitOptions: { hash:"88",
  subject:"Merging branch /NewFeatures/SequenceDiagram",
- author:"marcusvnac"});
-trunk.merge(UseCaseDiagram,{ hash:"89",
+ author:"marcusvnac"}});
+trunk.merge({ branch: UseCaseDiagram, commitOptions: { hash:"89",
  subject:"Merging branch /branches/NewFeatures/UseCaseDiagram",
- author:"marcusvnac"});
+ author:"marcusvnac"}});
 trunk.commit({ hash:"90",
  subject:"Added Sequence Diagram and Use Case Diagram.",
  author:"marcusvnac"});
@@ -384,9 +384,9 @@ trunk.commit({ hash:"114",
  subject:"Before merge of CollaborationDiagram Feature",
  author:"marcusvnac"});
 trunk.tag("tag rev.114");
-trunk.merge(CollaborationDiagram,{ hash:"115",
+trunk.merge({ branch: CollaborationDiagram, commitOptions: { hash:"115",
  subject:"New feature (CollaborationDiagram) Fix problems in other features.",
- author:"marcusvnac"});
+ author:"marcusvnac"}});
 trunk.commit({ hash:"116",
  subject:"",
  author:"marcusvnac"});
@@ -435,9 +435,9 @@ DeploymentDiagram.commit({ hash:"130",
 trunk.commit({ hash:"131",
  subject:"Add option do generate only basic metrics.",
  author:"marcusvnac"});
-trunk.merge(DeploymentDiagram,{ hash:"132",
+trunk.merge({ branch: DeploymentDiagram, commitOptions: { hash:"132",
  subject:"New feature DeploymentDiagram.  Change metric name: \"NestedCommand\" to \"NestedStatement\"",
- author:"marcusvnac"});
+ author:"marcusvnac"}});
 trunk.commit({ hash:"133",
  subject:"Fix Class Metric regular expression.",
  author:"marcusvnac"});
